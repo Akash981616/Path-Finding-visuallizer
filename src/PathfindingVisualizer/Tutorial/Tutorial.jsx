@@ -15,7 +15,6 @@ export class Tutorial extends Component {
   document.addEventListener("DOMContentLoaded", function() {
     if (getCookie('visited') == null){
       showPopUp();
-      console.log("h")
       setCookie('visited', true);
     }
     else {
